@@ -111,6 +111,26 @@ graph TD
 
 ---
 
+## 📱 Feature Highlights & Core Modules
+
+- 🎯 **AI Director Generator**: Custom count (1, 2, 3, 4, 5+), gender filters, background environment, and camera setup recommendations.
+- 📌 **Pinterest Ideas Hub**: Staggered masonry visual grid with 1-click pin saving, tag pills, and split inspect modals.
+- 🎙️ **Live Camera Coach**: Real-time HUD with hands-free voice directing speaking commands out loud via Web Speech.
+- 📋 **Shoot Brief & Moodboard Studio**: Printable shot list checklist, outfit color palette swatches, and 1-page PDF export.
+- 🏆 **Best Photo Picker**: Multi-photo AI expression, sharpness, composition, and lighting scoring matrix.
+- 💬 **Ask PoseAI Chatbot Widget**: Persistent floating assistant for photography & posing Q&A.
+- 🌅 **Live Golden Hour Calculator**: Real-time lighting phase, sun angle, and lens advice based on local time.
+
+---
+
+## 🔒 Privacy & On-Device Processing Guarantee
+
+- 🛡️ **Zero Cloud Video Storage**: Web Camera video streams are processed 100% locally inside your browser context.
+- 🔒 **No Unconsented Uploads**: Photos are never uploaded or saved to external servers without explicit action.
+- ⚡ **Local Speech Synthesis**: Voice directing runs natively using the browser's `SpeechSynthesis` API.
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Frontend Core**: React 18, TypeScript, Vite
