@@ -2,7 +2,13 @@
 
 > **Never ask *"How should we pose?"* or *"What do I do with my hands?"* again.**
 
+[![Live Web Demo](https://img.shields.io/badge/Live%20Demo-Netlify%20App-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](http://splendorous-platypus-63fc80.netlify.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-ishitasheraji%2Fposely-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ishitasheraji/posely)
+
 PoseMate is an end-to-end **AI Photographer & Director** that transforms awkward photo shoots into effortless, high-end photography sessions. It tells everyone exactly where to stand, how to angle their body, where to place their hands, what camera lens to use, and speaks instructions out loud in real time while your phone rests on a tripod.
+
+- 🌐 **Live Web Deployment**: [http://splendorous-platypus-63fc80.netlify.app](http://splendorous-platypus-63fc80.netlify.app)
+- 🐙 **GitHub Repository**: [https://github.com/ishitasheraji/posely](https://github.com/ishitasheraji/posely)
 
 ---
 
