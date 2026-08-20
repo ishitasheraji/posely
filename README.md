@@ -25,6 +25,71 @@ PoseMate acts as a personal **AI Director in your pocket**:
 
 ---
 
+## 🔄 User Journey & Workflow Diagram
+
+```mermaid
+flowchart TD
+    A[👤 User Opens PoseMate] --> B{Select Experience}
+    
+    B -->|⚡ Express 1-Tap| C[Instant 1-Click Pose Roulette]
+    B -->|🎯 Custom AI Director| D[Select Count: 1, 2, 3, 4, 5+<br/>Select Gender, Background & Style]
+    B -->|📌 Pinterest Ideas| E[Explore Visual Masonry Feed]
+    
+    D --> F[🧠 AI Pose Generator Engine]
+    F --> G[📐 Generate Formation Diagram P1..P4]
+    F --> H[📝 Create Person Directives & Hand Props]
+    F --> I[📷 Compute Camera Height & Lens Angle]
+    F --> J[🖼️ Match Contextual 4K Photography]
+    
+    G & H & I & J --> K[📸 Interactive Director Result Card]
+    
+    K --> L[📋 Copy Directives for WhatsApp / Chat]
+    K --> M[📱 Open Live AI Camera Coach]
+    K --> N[📁 Add to Moodboard Brief PDF]
+    
+    M --> O[🎙️ Hands-Free Voice Director Speaks Commands Out Loud]
+```
+
+---
+
+## 🏗️ System Architecture & Component Flow
+
+```mermaid
+graph TD
+    subgraph UI ["🎨 Frontend Presentation Layer (React + Vite + Tailwind)"]
+        Nav["✨ Floating Glassmorphic Pill Navbar"]
+        Hero["🚀 Hero & 1-Tap Express Presets"]
+        Gen["🎯 AI Director Generator"]
+        Pin["📌 Pinterest Ideas Masonry Grid"]
+        Cam["📱 Live AI Camera Coach HUD"]
+        Brief["📋 Shoot Moodboard & Brief Studio"]
+        Chat["💬 Ask PoseAI Chatbot Widget"]
+        Sun["🌅 Live Golden Hour Sun Calculator"]
+    end
+
+    subgraph Service ["🧠 AI Logic & Processing Services"]
+        Engine["aiPoseService.ts"]
+        PhotoMatch["getContextualPhotos()"]
+        BestPicker["selectBestPhotos()"]
+        VoiceEngine["SpeechSynthesisUtterance (Audio Directives)"]
+    end
+
+    subgraph Output ["📤 Output & Export Formats"]
+        Directives["📋 WhatsApp / Text Clipboard Export"]
+        PdfBrief["📄 Printable Photographer Brief Sheet"]
+        Gallery["💾 Saved Pose Collection"]
+    end
+
+    Nav --> Gen & Pin & Cam & Brief
+    Gen --> Engine
+    Engine --> PhotoMatch
+    Cam --> VoiceEngine
+    Brief --> PdfBrief
+    Gen --> Directives
+```
+
+---
+
 ## ⭐ Unique Selling Propositions (USPs)
 
 | Feature | Description |
